@@ -1,0 +1,29 @@
+POST http://localhost:3000/categorias
+Content-type: application/json
+
+{
+ "name": "cgi"
+}
+
+### 
+
+GET http://localhost:3000/categorias
+
+
+### 
+
+GET http://localhost:3000/categorias/3
+
+### 
+
+PUT http://localhost:3000/categorias/8
+Content-Type: application/json
+
+{
+  "name":  "cgi"
+}
+
+
+###
+
+DELETE http://localhost:3000/categorias/8
